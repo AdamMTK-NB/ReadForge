@@ -76,7 +76,7 @@ export function ReadmeGenerator({ repo, onBack }: ReadmeGeneratorProps) {
         {!readme ? (
           <div className="space-y-6">
             <div>
-              <label className="block text-sm font-medium mb-3">README Tone</label>
+              <label className="block text-sm font-medium mb-3">ReadForge Tone</label>
               <div className="flex gap-3">
                 {(['professional', 'casual', 'technical'] as const).map((t) => (
                   <button
@@ -122,14 +122,14 @@ export function ReadmeGenerator({ repo, onBack }: ReadmeGeneratorProps) {
               {loading ? (
                 <>
                   <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                  Generating README...
+                  Generating ReadForge...
                 </>
               ) : (
                 <>
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
-                  Generate README
+                  Generate ReadForge
                 </>
               )}
             </button>

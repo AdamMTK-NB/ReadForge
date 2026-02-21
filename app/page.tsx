@@ -36,10 +36,10 @@ export default async function Home() {
       <div className="max-w-6xl mx-auto">
         <header className="mb-12">
           <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            README Generator
+            ReadForge
           </h1>
           <p className="text-xl text-gray-400">
-            Connect your GitHub account and generate professional README files for your repositories
+            Connect your GitHub account and generate professional readme files for your repositories
           </p>
         </header>
 
@@ -52,7 +52,7 @@ export default async function Home() {
                 </svg>
                 <h2 className="text-2xl font-semibold mb-2">Connect with GitHub</h2>
                 <p className="text-gray-400">
-                  Sign in to access your repositories and generate README files automatically
+                  Sign in to access your repositories and generate readme files automatically
                 </p>
               </div>
               <GitHubLoginButton />
