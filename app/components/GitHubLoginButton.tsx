@@ -20,7 +20,7 @@ export function GitHubLoginButton() {
     <button
       onClick={handleLogin}
       disabled={loading}
-      className="w-full py-3 px-6 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-100 transition-all transform hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
+      className="w-full py-3 px-7 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-100 transition-all transform hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
     >
       {loading ? (
         <div className="w-5 h-5 border-2 border-gray-900 border-t-transparent rounded-full animate-spin" />
